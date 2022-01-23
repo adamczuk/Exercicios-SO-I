@@ -8,3 +8,5 @@ Conteúdo: O que são processos, como SO gerencia eles, como iniciar e matar pro
 - Exercicio 1  (AulaProcessos)
 - Exercicio 2  (ExercicioListaMataProcessos)
 
+### AULA 2 - Multithreading 
+Conteúdo: Introdução a teoria de concorrência com Java. Implementações feitas usando a classe Thread
