@@ -1,0 +1,21 @@
+docker pull imagem			=> Puxa uma imagem do docker hub
+docker images				=> mostra imagens baixadas
+docker run imagem			=> cria um conteiner 
+docker ps				=> mostra os contêineres que estão rodando
+docker ps -a				=> mostra os contêineres criados
+docker rm nome_conteiner		=> Exclui o contêiner (Não pode estar rodando)
+docker rmi nome_imagem			=> Exclui a imagem (Não pode ter contêiner criado a partir dela)
+docker stop nome_conteiner		=> Para o contêiner
+docker start nome_conteiner		=> Inicia o contêiner
+docker exec -i -t nome_conteiner proc	=> Faz com que o contêiner rode o processo solicitado
+ctrl + p & ctrl + q			=> sai do contêiner
+exit					=> sai do contêiner (Pode para a execução do contêiner)
+docker run -d -t --name nome imagem
+		-d Rodar a aplicação em background
+		-t Terminal ficar ativo
+		--name Dá um nome contêiner
+		-v Mapeia uma pasta (volume) do S.O hospedeiro no contêiner
+		-P criar uma comunicação direta entre host e contêiner a partir de uma porta que esteja disponível
+		-p criar uma comunicação direta entre host e contêiner a partir de uma porta específica
+		-e cria ou modifica alguma configuração das variáveis do ambiente do conteiner
+		--restart=always reinicia o contêiner automaticamente se ele cair
