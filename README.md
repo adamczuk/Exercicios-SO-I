@@ -21,3 +21,7 @@ Conteúdo: Introdução a teoria de concorrência com Java. Implementações fei
 <br>
 
 ### [AULA 3 - Sincronização de threads com semáforos](/aula-03)
+
+ <br>
+
+### [Exercício extra de Sincronização de Threads](/aula-04)
